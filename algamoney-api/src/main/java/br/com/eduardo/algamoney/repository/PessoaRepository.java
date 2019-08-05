@@ -1,8 +1,8 @@
-package br.com.eduardo.casadocodigo.repository;
+package br.com.eduardo.algamoney.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import br.com.eduardo.casadocodigo.model.Pessoa;
+import br.com.eduardo.algamoney.model.Pessoa;
 
 public interface PessoaRepository  extends JpaRepository<Pessoa, Long>{
 

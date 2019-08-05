@@ -1,4 +1,4 @@
-package br.com.eduardo.casadocodigo.resource;
+package br.com.eduardo.algamoney.resource;
 
 import java.util.List;
 
@@ -19,10 +19,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.eduardo.casadocodigo.event.RecursoCriadoEvent;
-import br.com.eduardo.casadocodigo.model.Pessoa;
-import br.com.eduardo.casadocodigo.repository.PessoaRepository;
-import br.com.eduardo.casadocodigo.service.PessoaService;
+import br.com.eduardo.algamoney.event.RecursoCriadoEvent;
+import br.com.eduardo.algamoney.model.Pessoa;
+import br.com.eduardo.algamoney.repository.PessoaRepository;
+import br.com.eduardo.algamoney.service.PessoaService;
 
 @RestController
 @RequestMapping("/pessoas")

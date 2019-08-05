@@ -1,4 +1,4 @@
-package br.com.eduardo.casadocodigo;
+package br.com.eduardo.algamoney;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

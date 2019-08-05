@@ -1,12 +1,12 @@
-package br.com.eduardo.casadocodigo.service;
+package br.com.eduardo.algamoney.service;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
-import br.com.eduardo.casadocodigo.model.Pessoa;
-import br.com.eduardo.casadocodigo.repository.PessoaRepository;
+import br.com.eduardo.algamoney.model.Pessoa;
+import br.com.eduardo.algamoney.repository.PessoaRepository;
 
 @Service
 public class PessoaService {

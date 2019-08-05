@@ -1,4 +1,4 @@
-package br.com.eduardo.casadocodigo.model;
+package br.com.eduardo.algamoney.model;
 
 import javax.persistence.Embeddable;
 

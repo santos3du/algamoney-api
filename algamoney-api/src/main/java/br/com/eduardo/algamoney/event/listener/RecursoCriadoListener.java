@@ -1,4 +1,4 @@
-package br.com.eduardo.casadocodigo.event.listener;
+package br.com.eduardo.algamoney.event.listener;
 
 import java.net.URI;
 
@@ -8,7 +8,9 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import br.com.eduardo.casadocodigo.event.RecursoCriadoEvent;
+import br.com.eduardo.algamoney.event.RecursoCriadoEvent;
+
+
 
 @Component
 public class RecursoCriadoListener implements ApplicationListener<RecursoCriadoEvent> {
